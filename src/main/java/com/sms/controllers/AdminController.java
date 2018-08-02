@@ -34,9 +34,6 @@ public class AdminController {
 	public String stdInchargeRegister(StdIncharge stdIncharge, Model model){
 		logger.info("Entered into student incharge register method :: AdminController");
 		String stdInchargeRegister = adminService.stdInchargeRegister(stdIncharge, model);
-		if(stdInchargeRegister.equals(true)){
-			model.addAttribute("succMsg", "Student Incharge Successfully Created");
-		}
 		return stdInchargeRegister;
 	}
 }

@@ -1141,3 +1141,143 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 2018-08-02 15:22:40 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
 2018-08-02 15:22:40 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
 2018-08-02 15:22:41 INFO  AdminDaoImpl:58 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 15:33:57 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 15:34:22 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 15:34:22 INFO  AdminDaoImpl:31 - Admin Login DAOIMPL :: method
+2018-08-02 15:34:22 INFO  AdminDaoImpl:35 - Login User name :admin@gmail.com
+2018-08-02 15:34:22 INFO  AdminDaoImpl:39 - Login User name :admin@gmail.com
+2018-08-02 15:34:53 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 15:34:53 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 15:34:53 INFO  AdminDaoImpl:58 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 15:37:43 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 15:37:58 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 15:37:58 INFO  AdminDaoImpl:31 - Admin Login DAOIMPL :: method
+2018-08-02 15:37:59 INFO  AdminDaoImpl:35 - Login User name :admin@gmail.com
+2018-08-02 15:37:59 INFO  AdminDaoImpl:39 - Login User name :admin@gmail.com
+2018-08-02 15:38:31 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 15:38:31 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 15:38:31 INFO  AdminDaoImpl:58 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 15:38:50 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 15:38:50 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 15:38:50 ERROR AdminDaoImpl:60 - Some thing went wrong while storing student incharge :: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:72)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:488)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:193)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:177)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:212)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:715)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:707)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:702)
+	at com.sms.daoimpl.AdminDaoImpl.stdInchargeRegister(AdminDaoImpl.java:56)
+	at com.sms.serviceimpl.AdminServiceImpl.stdInchargeRegister(AdminServiceImpl.java:49)
+	at com.sms.controllers.AdminController.stdInchargeRegister(AdminController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:180)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'raina@gmail.com' for key 'email'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1015)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2109)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2643)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2077)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2362)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2280)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2265)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:187)
+	... 59 more
+2018-08-02 15:40:28 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 15:40:46 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 15:40:46 INFO  AdminDaoImpl:31 - Admin Login DAOIMPL :: method
+2018-08-02 15:40:46 INFO  AdminDaoImpl:35 - Login User name :admin@gmail.com
+2018-08-02 15:40:46 INFO  AdminDaoImpl:39 - Login User name :admin@gmail.com
+2018-08-02 15:41:18 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 15:41:18 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 15:41:18 INFO  AdminDaoImpl:58 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 15:56:39 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 15:57:00 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 15:57:00 INFO  AdminDaoImpl:32 - Admin Login DAOIMPL :: method
+2018-08-02 15:57:00 INFO  AdminDaoImpl:36 - Login User name :admin@gmail.com
+2018-08-02 15:57:00 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-02 15:57:45 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 15:57:45 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 15:57:46 INFO  AdminDaoImpl:60 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 16:02:13 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 16:02:31 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 16:02:31 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-02 16:02:31 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-02 16:02:31 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-02 16:03:28 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 16:03:28 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 16:03:28 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 16:11:26 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-02 16:11:54 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-02 16:11:54 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-02 16:11:54 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-02 16:11:54 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-02 16:12:29 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-02 16:12:29 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-02 16:12:29 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-02 16:13:35 INFO  StudentInchargeController:21 - Incharge login view page opened :: StudentInchargeController
+2018-08-02 16:13:49 INFO  StudentInchargeController:27 - Entered into Student Incharge login :: loginStdInchrage
+2018-08-02 16:13:49 INFO  StdInChrageServiceImpl:18 - Entered Into Student Incharge Login :: StdInChrageServiceImpl
+2018-08-02 16:13:49 INFO  StdInChrageDaoImpl:22 - Entered into Student Incharge login

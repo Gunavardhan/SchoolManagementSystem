@@ -10,6 +10,7 @@
 	<bean id="stdInChrageDaoImpl" class="com.sms.daoimpl.StdInChrageDaoImpl"></bean>
 	<bean id="adminService" class="com.sms.serviceimpl.AdminServiceImpl"></bean>
 	<bean id="stdInChrageServiceImpl" class="com.sms.serviceimpl.StdInChrageServiceImpl"></bean>
+	<bean id="securePassword" class="com.sms.securityforpwd.SecurePassword"></bean>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />

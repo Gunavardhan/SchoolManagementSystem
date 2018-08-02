@@ -7,15 +7,19 @@ import org.hibernate.Query;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.sms.dao.IAdminLogin;
 import com.sms.dbutil.DBUtil;
 import com.sms.model.SchoolAdmin;
 import com.sms.model.StdIncharge;
+import com.sms.securityforpwd.SecurePassword;
 
 public class AdminDaoImpl implements IAdminLogin {
 	private static final Logger logger = Logger.getLogger(AdminDaoImpl.class);
 
+	@Autowired
+	private SecurePassword securePwd;
 	/*
 	 * public List<SchoolAdmin> adminLogin(SchoolAdmin admin) {
 	 * System.out.println("Admin Login DAOIMPL :: method"); SessionFactory
@@ -27,6 +31,7 @@ public class AdminDaoImpl implements IAdminLogin {
 	 * //adminLogin.setParameter("role", "admin"); List<SchoolAdmin> list =
 	 * adminLogin.list(); System.out.println(list); return list; }
 	 */
+	@SuppressWarnings("unchecked")
 	public List<SchoolAdmin> adminLogin(SchoolAdmin admin) {
 		logger.info("Admin Login DAOIMPL :: method");
 		SessionFactory sessionFactory = DBUtil.getSessionFactory();
@@ -53,6 +58,9 @@ public class AdminDaoImpl implements IAdminLogin {
 		Session session = sessionFactory.openSession();
 		if(stdIncharge !=null){
 			try{
+				System.out.println("INPUT PASSWORD : " + stdIncharge.getInchargePwd());
+				System.out.println("Encrypted Password: " + securePwd.encrypt(stdIncharge.getInchargePwd()));
+				System.out.println("DECRYPTED PASSWORD: " + securePwd.decrypt(stdIncharge.getInchargePwd()));
 				session.save(stdIncharge);
 				session.beginTransaction().commit();
 				logger.info("Student incharge successfullly registered :: stdInchargeRegister");

@@ -14,6 +14,8 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.Generated;
 import org.hibernate.annotations.GenerationTime;
 
+import com.sms.securityforpwd.SecurePassword;
+
 
 
 @Entity
@@ -58,8 +60,9 @@ public class StdIncharge {
 	public String getInchargePwd() {
 		return inchargePwd;
 	}
-	public void setInchargePwd(String inchargePwd) {
-		this.inchargePwd = inchargePwd;
+	public void setInchargePwd(String inchargePwd) throws Exception {
+		SecurePassword sp = new SecurePassword();
+		this.inchargePwd = sp.encrypt(inchargePwd);
 	}
 	public String getMobile() {
 		return mobile;

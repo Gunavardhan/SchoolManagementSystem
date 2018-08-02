@@ -47,6 +47,7 @@ public class AdminServiceImpl implements IAdmin{
 	public String stdInchargeRegister(StdIncharge stdIncharge, Model model) {
 		logger.info("Entered into Student Incharge Register :: stdInchargeRegister method");
 		adminDao.stdInchargeRegister(stdIncharge);
+			model.addAttribute("succMsg", "Student Incharge Successfully Created");
 		return "admin-profile";
 	}
 
