@@ -1,7 +1,5 @@
 package com.sms.model;
 
-
-
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -15,8 +13,6 @@ import org.hibernate.annotations.Generated;
 import org.hibernate.annotations.GenerationTime;
 
 import com.sms.securityforpwd.SecurePassword;
-
-
 
 @Entity
 @Table(name="sms_std_incharge")
