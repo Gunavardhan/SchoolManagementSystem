@@ -7,15 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Admin Profile Page</h1>
-	<h5 style="color:green">${succMsg}</h5>
-	<nav>
-		<ul>
-			<li><a href="#">ABOUT US</a></li>
-			<li><a href="stdinchargeregview">InCharge Registration</a></li>
-			<li><a href="#">InCharge Profile</a></li>
-			<li><a href="#">View Students</a></li>
-		</ul>
-	</nav>
+	<h5 style="color:red">${errMsg}</h5>
+	<form action="${pageContext.request.contextPath}/inchargelogin" method="post">
+		Username : <input type="email" name="email"></br>
+		Password : <input type="password" name="inchargePwd"></br>
+		<input type="submit" value="Login"/>
+	</form>
 </body>
 </html>

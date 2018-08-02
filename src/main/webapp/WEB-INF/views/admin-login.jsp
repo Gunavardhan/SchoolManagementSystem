@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h5 style="color:red">${errMsg}</h5>
+	<h5 style="color:red">${message}</h5>
 	<form action="${pageContext.request.contextPath}/adminlogin" method="post">
 		Username : <input type="email" name="admin_name"></br>
 		Password : <input type="password" name="admin_pwd"></br>

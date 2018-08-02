@@ -7,10 +7,12 @@
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	<context:component-scan base-package="com.sms.controllers" />
 	<bean id="adminDao" class="com.sms.daoimpl.AdminDaoImpl"></bean>
+	<bean id="stdInChrageDaoImpl" class="com.sms.daoimpl.StdInChrageDaoImpl"></bean>
 	<bean id="adminService" class="com.sms.serviceimpl.AdminServiceImpl"></bean>
+	<bean id="stdInChrageServiceImpl" class="com.sms.serviceimpl.StdInChrageServiceImpl"></bean>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-</beans>   
+</beans>

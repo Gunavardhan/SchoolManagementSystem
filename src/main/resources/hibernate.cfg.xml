@@ -28,6 +28,6 @@
       <property name="show_sql">true</property>
       <!-- List of mapping classes -->
       <mapping class = "com.sms.model.SchoolAdmin"/>
-      
+      <mapping class="com.sms.model.StdIncharge"/>
    </session-factory>
 </hibernate-configuration>

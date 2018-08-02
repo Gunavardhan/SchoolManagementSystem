@@ -11,6 +11,8 @@ public class SchoolAdmin {
 	private Integer admin_id;
 	private String admin_name;
 	private String admin_pwd;
+	private Boolean user_status;
+	private int count;
 	private String role;
 	
 	public Integer getAdmin_id() {
@@ -34,12 +36,26 @@ public class SchoolAdmin {
 	public String getAdmin_pwd() {
 		return admin_pwd;
 	}
+	
+	public Boolean getUser_status() {
+		return user_status;
+	}
+	public void setUser_status(Boolean user_status) {
+		this.user_status = user_status;
+	}
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
 	public void setAdmin_pwd(String admin_pwd) {
 		this.admin_pwd = admin_pwd;
 	}
 	@Override
 	public String toString() {
-		return "SchoolAdmin [admin_name=" + admin_name + ", admin_pwd=" + admin_pwd + "]";
+		return "SchoolAdmin [admin_id=" + admin_id + ", admin_name=" + admin_name + ", admin_pwd=" + admin_pwd
+				+ ", user_status=" + user_status + ", count=" + count + ", role=" + role + "]";
 	}
 	
 }

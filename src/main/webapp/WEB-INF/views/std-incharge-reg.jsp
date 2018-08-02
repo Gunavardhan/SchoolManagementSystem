@@ -8,5 +8,13 @@
 </head>
 <body>
 	<h1>InCharge Registration</h1>
+	<form action="stdinchrageregister" method="post">
+		First Name : <input type="text" name="firstname"></br>
+		Last Name  : <input type="text" name="lastname"></br>
+		Email      : <input type="email" name="email"></br>
+		Password   : <input type="password" name="inchargePwd"></br>
+		Mobile     : <input type="text" name="mobile"></br>
+		<input type="submit" value="Incharge Rrgister">
+	</form>
 </body>
 </html>

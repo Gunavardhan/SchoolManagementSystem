@@ -7,15 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Admin Profile Page</h1>
-	<h5 style="color:green">${succMsg}</h5>
-	<nav>
-		<ul>
-			<li><a href="#">ABOUT US</a></li>
-			<li><a href="stdinchargeregview">InCharge Registration</a></li>
-			<li><a href="#">InCharge Profile</a></li>
-			<li><a href="#">View Students</a></li>
-		</ul>
-	</nav>
+	<h1>This is InChareg profile</h1>
 </body>
 </html>

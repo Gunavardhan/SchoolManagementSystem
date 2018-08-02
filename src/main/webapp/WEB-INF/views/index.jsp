@@ -14,6 +14,7 @@
 			<li>HOME</li>
 			<li>ABOUT US</li>
 			<li><a href="gotoadminlogin">ADMIN LOGIN</a></li>
+			<li><a href="gotoinchargeloginview">STUDENT INCHARGE LOGIN</a></a></li>
 		</ul>
 	</div>
 </div>

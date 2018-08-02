@@ -7,4 +7,5 @@ import com.sms.model.StdIncharge;
 public interface IAdminLogin {
 	List<SchoolAdmin> adminLogin(SchoolAdmin admin);
 	void stdInchargeRegister(StdIncharge stdIncharge);
+	public void updateSchoolAdmin(SchoolAdmin admin);
 }
