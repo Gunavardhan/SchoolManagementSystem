@@ -1281,3 +1281,70 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 2018-08-02 16:13:49 INFO  StudentInchargeController:27 - Entered into Student Incharge login :: loginStdInchrage
 2018-08-02 16:13:49 INFO  StdInChrageServiceImpl:18 - Entered Into Student Incharge Login :: StdInChrageServiceImpl
 2018-08-02 16:13:49 INFO  StdInChrageDaoImpl:22 - Entered into Student Incharge login
+2018-08-16 12:26:16 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 12:26:45 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 12:26:45 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 12:26:45 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 12:26:46 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 12:27:52 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-16 12:27:52 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 12:27:52 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 12:29:58 INFO  StudentInchargeController:21 - Incharge login view page opened :: StudentInchargeController
+2018-08-16 12:30:04 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 12:30:04 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 12:30:04 INFO  AdminDaoImpl:40 - Login User name :
+2018-08-16 12:30:04 INFO  AdminDaoImpl:44 - Login User name :
+2018-08-16 12:30:11 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 12:30:11 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 12:30:11 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 12:30:11 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 12:31:05 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 12:42:33 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 12:43:00 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 12:43:00 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 12:43:00 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 12:43:00 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 12:43:27 INFO  AdminController:35 - Entered into student incharge register method :: AdminController
+2018-08-16 12:43:27 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 12:43:27 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 12:47:17 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 12:56:17 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 12:56:39 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 12:56:39 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 12:56:39 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 12:56:40 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 12:57:29 INFO  AdminController:42 - Entered into student incharge register method :: AdminController
+2018-08-16 12:57:29 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 12:57:29 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 13:01:31 INFO  StudentInchargeController:21 - Incharge login view page opened :: StudentInchargeController
+2018-08-16 13:02:33 INFO  AdminController:42 - Entered into student incharge register method :: AdminController
+2018-08-16 13:02:33 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 13:02:33 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 13:05:23 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 13:05:41 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 13:05:41 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 13:05:41 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 13:05:41 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 13:06:09 INFO  AdminController:42 - Entered into student incharge register method :: AdminController
+2018-08-16 13:06:09 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 13:06:09 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 13:08:38 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 13:09:45 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 13:10:06 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 13:10:06 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 13:10:06 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 13:10:07 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 13:10:56 INFO  AdminController:42 - Entered into student incharge register method :: AdminController
+2018-08-16 13:10:56 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 13:10:56 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 13:50:43 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-08-16 13:51:14 INFO  AdminServiceImpl:19 - ENTERED INTO ADMIN LOGIN SERVICE :: AdminServiceImpl
+2018-08-16 13:51:14 INFO  AdminDaoImpl:36 - Admin Login DAOIMPL :: method
+2018-08-16 13:51:14 INFO  AdminDaoImpl:40 - Login User name :admin@gmail.com
+2018-08-16 13:51:15 INFO  AdminDaoImpl:44 - Login User name :admin@gmail.com
+2018-08-16 13:51:46 INFO  AdminController:43 - Entered into student incharge register method :: AdminController
+2018-08-16 13:51:46 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 13:51:47 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
+2018-08-16 13:59:05 INFO  AdminController:43 - Entered into student incharge register method :: AdminController
+2018-08-16 13:59:05 INFO  AdminServiceImpl:48 - Entered into Student Incharge Register :: stdInchargeRegister method
+2018-08-16 13:59:05 INFO  AdminDaoImpl:66 - Student incharge successfullly registered :: stdInchargeRegister
